@@ -6,7 +6,9 @@ namespace Stopwatch2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var stopwatch = new Stopwatch();
+            stopwatch.Start = DateTime.Now;
+            Console.WriteLine(stopwatch.Start);
         }
     }
 }
